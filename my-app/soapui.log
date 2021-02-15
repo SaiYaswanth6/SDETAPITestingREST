@@ -1,0 +1,29 @@
+2021-02-16 00:34:32,536 WARN  [SoapUI] Missing folder [C:\Users\MCSaiYaswanth\Desktop\SDET\API Testing\REST Project GIT\my-app\ext] for external libraries
+2021-02-16 00:34:33,175 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\MCSaiYaswanth\soapui-settings.xml]
+2021-02-16 00:34:35,653 INFO  [WsdlProject] Loaded project from [file:/C:/Users/MCSaiYaswanth/Desktop/SDET/API%20Testing/REST%20Project%20GIT/my-app/REST-Project-1-soapui-project.xml]
+2021-02-16 00:34:36,819 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2021-02-16 00:34:36,821 INFO  [SoapUITestCaseRunner] Running Project [REST Project 1], runType = SEQUENTIAL
+2021-02-16 00:34:36,877 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Project TC]
+2021-02-16 00:34:36,892 INFO  [SoapUITestCaseRunner] running step [Create Token]
+2021-02-16 00:34:38,939 INFO  [log] bearer 4146c4e5fe57535979e82f686bfa509bfa9f84ec
+2021-02-16 00:34:39,244 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-16 00:34:39,282 INFO  [SoapUITestCaseRunner] Assertion [Token] has status VALID
+2021-02-16 00:34:39,284 INFO  [SoapUITestCaseRunner] Assertion [Status Code] has status VALID
+2021-02-16 00:34:39,284 INFO  [SoapUITestCaseRunner] running step [Login]
+2021-02-16 00:34:39,654 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-16 00:34:39,703 INFO  [log] upskills_admin
+2021-02-16 00:34:39,705 INFO  [SoapUITestCaseRunner] Assertion [Status Code] has status VALID
+2021-02-16 00:34:39,706 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-02-16 00:34:39,708 INFO  [SoapUITestCaseRunner] running step [Get User Details]
+2021-02-16 00:34:40,313 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-16 00:34:40,314 INFO  [SoapUITestCaseRunner] Assertion [Status Code] has status VALID
+2021-02-16 00:34:40,316 INFO  [SoapUITestCaseRunner] running step [Categories List]
+2021-02-16 00:34:48,023 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-16 00:34:48,238 INFO  [log] 0
+2021-02-16 00:34:48,239 INFO  [SoapUITestCaseRunner] Assertion [Status Code] has status VALID
+2021-02-16 00:34:48,241 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-02-16 00:34:48,242 INFO  [SoapUITestCaseRunner] running step [Logout]
+2021-02-16 00:34:48,616 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-16 00:34:48,617 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-02-16 00:34:48,636 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Project TC], time taken: 7380ms, status: FINISHED
+2021-02-16 00:34:48,637 INFO  [SoapUITestCaseRunner] Project [REST Project 1] finished with status [FINISHED] in 11805ms
